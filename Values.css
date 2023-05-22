@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.completed{
+    text-decoration: line-through;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+#wrapper li{
+    list-style: none;
+    text-align: center;
+}
