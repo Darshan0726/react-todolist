@@ -8,7 +8,7 @@ function Values() {
     const [task,settask]=useState('');
     const [tasks,settasks]=useState([])
     const [completed,setCompleted]=useState([])
-    const[edit,setedit]=useState(false)
+    const [edit,setedit]=useState(false)
     function handleChange(e){
         settask(e.target.value)
 
